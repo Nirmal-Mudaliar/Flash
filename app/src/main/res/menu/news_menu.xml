@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/breakingNewsFragment"
+        android:title="@string/home"
+        android:icon="@drawable/ic_home"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/savedNewsFragment"
+        android:title="@string/saved"
+        android:icon="@drawable/ic_saved"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/searchNewsFragment"
+        android:title="@string/search"
+        android:icon="@drawable/ic_search"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+
+</menu>

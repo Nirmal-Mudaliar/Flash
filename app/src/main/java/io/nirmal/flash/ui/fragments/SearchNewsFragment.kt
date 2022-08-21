@@ -18,7 +18,7 @@ class SearchNewsFragment : Fragment() {
         savedInstanceState: Bundle?,
     ): View? {
         // Inflate the layout for this fragment
-        _binding = FragmentSearchNewsBinding.inflate(layoutInflater)
+        _binding = FragmentSearchNewsBinding.inflate(inflater, container, false)
         return binding.root
     }
 

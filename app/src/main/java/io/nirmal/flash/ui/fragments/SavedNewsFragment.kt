@@ -18,7 +18,7 @@ class SavedNewsFragment : Fragment() {
         savedInstanceState: Bundle?,
     ): View? {
         // Inflate the layout for this fragment
-        _binding = FragmentSavedNewsBinding.inflate(layoutInflater)
+        _binding = FragmentSavedNewsBinding.inflate(inflater, container, false)
         return binding.root
     }
 

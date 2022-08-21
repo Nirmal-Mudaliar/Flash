@@ -19,7 +19,7 @@ class ArticleFragment : Fragment() {
         savedInstanceState: Bundle?,
     ): View? {
         // Inflate the layout for this fragment
-        _binding = FragmentArticleBinding.inflate(layoutInflater)
+        _binding = FragmentArticleBinding.inflate(inflater, container, false)
         return binding.root
     }
 
